@@ -1,0 +1,8 @@
+export interface ModeleRD {
+  IdModele: number;
+  NomModele: string;
+  DescriptionModele: string;
+  PrixUHT: number;
+  Gamme: string;
+  DateCreation: Date | string;
+}
